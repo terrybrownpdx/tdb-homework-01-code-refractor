@@ -18,9 +18,6 @@ header {
 header h1 {
     display: inline-block;
     font-size: 48px;
-}
-
-header h1 .seo {
     color: #d9dcd6;
 }
 
@@ -75,10 +72,16 @@ p {
     margin-left: 20px;
 }
 
+aside {
+    position: relative;
+    top: -960px;
+    right: 20px;
+    
+}
+
 .benefits {
-    margin-right: 20px;
+    margin-right: 20px;    
     padding: 20px;
-    position: sticky;
     clear: both;
     float: right;
     width: 20%;
@@ -102,17 +105,17 @@ p {
     color: #ffffff;
 }
 
-.benefit-lead h3 {
+.benefit-lead h3{
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
+.benefit-brand h3{
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-cost h3 {
+.benefit-cost h3{
     margin-bottom: 10px;
     text-align: center;
 }
@@ -189,6 +192,10 @@ p {
     font-size: 36px;
 }
 
+footer {
+    display: inline-block;
+    margin-left: 40%
+    }
 .footer {
     padding: 30px;
     clear: both;
